@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+
+body {
+    background-color:rgb(134, 130, 130);
+    
+}    
+
+.img-fon {
+    height: 100%;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+
+.navbar {
+    background-color: rgb(0, 0, 0) !important;
+       
+}
+
+
+.navbar-brand {
+    margin-left: 1.5em;
+    font-family: Anton;
+    font-size: 35px;
+    color:red !important;
+    font:bold
+}   
+
+
+.col a {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+    font-family: Anton;
+    background-color: black;
+   
+}
+
+
+.firindan-row, .kebap-row, .drink-row {
+    margin-top: 2em;
+    background-color: black;
+    border: 0px;
+    border-radius: 25px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: center;
+    align-items: center;
+    
+   
+}
+
+
+.menu-img img {
+    width: 100%;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-top: 1em;
+    align-items: center;
+    
+}
+
+
+.menu-img h2 {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 0.5em;
+    font-family: Poppins;
+}
+
+
+.menu-img p {
+    display: inline;
+    margin-left: 0.8em;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+
+.description-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.desc {
+    margin: 0;
+}
+ 
+
+.price {
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.footer-row {
+    background-color: black;
+    padding: 2em;
+    margin-top: 1em;
+    
+}
+
+
+.footer-row p {
+    font-family: Anton;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.payment,img {
+    
+    font-family: Anton;
+    color: white;
+    width: 40px;
+
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact img {
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+
+
