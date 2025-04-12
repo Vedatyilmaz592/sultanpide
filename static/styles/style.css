@@ -6,20 +6,20 @@ body {
     background-color:rgb(134, 130, 130);
     
 }    
-
+/* Dükkan fotoğrafı ayarı */
 .img-fon {
     height: 100%;
     width: 100%;
-    margin-top: 0.5em;
+    margin-top: 5px;
 }
 
-
+/* navbar renk ayarı */
 .navbar {
     background-color: rgb(0, 0, 0) !important;
        
 }
 
-
+/* Navbardaki yazının renk ve konum ayarı*/
 .navbar-brand {
     margin-left: 1.5em;
     font-family: Anton;
@@ -28,19 +28,19 @@ body {
     font:bold
 }   
 
-
+/* Kategorilerin renk ve konum ayarı */
 .col a {
     text-align: center;
     text-decoration: none;
     color: red;
     font-size: 30px;
     font-family: Anton;
-    background-color: black;
+    
    
 }
 
-
-.firindan-row, .kebap-row, .drink-row {
+/* ürünlerin yazı ve konum ayarı */
+.firindan-row, .kebap-row, .drink-row, .durum-row, .corba-row {
     margin-top: 2em;
     background-color: black;
     border: 0px;
@@ -53,10 +53,10 @@ body {
    
 }
 
-
+/* ürünlerin fotoğraf ayarı */
 .menu-img img {
     width: 100%;
-    height: 210px;
+    height: 290px;
     border-radius: 15px;
     box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
@@ -65,7 +65,7 @@ body {
     
 }
 
-
+/* ürünlerin başlık ayarı */
 .menu-img h2 {
     margin-top: 10px;
     text-align: left;
@@ -73,7 +73,7 @@ body {
     font-family: Poppins;
 }
 
-
+/* ürünlerin açıklama ayarı */
 .menu-img p {
     display: inline;
     margin-left: 0.8em;
@@ -81,25 +81,25 @@ body {
     font-family: Poppins;
 }
 
-
+/* Fiyat ve açıklamanın yan yana durma ayarı */
 .description-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
+/* açıklama konum ayarı */
 .desc {
     margin: 0;
 }
  
-
+/* fiyat konum ayarı */
 .price {
     margin: 0;
     font-weight: bold;
 }
 
-
+/* Footer renk ve konum ayarı */
 .footer-row {
     background-color: black;
     padding: 2em;
@@ -107,7 +107,7 @@ body {
     
 }
 
-
+/* Footer yazı ayarı */
 .footer-row p {
     font-family: Anton;
     text-decoration: none;
@@ -115,14 +115,14 @@ body {
     
 }
 
+/* İban renk ve ıcon ayarı  */
 .payment,img {
-    
     font-family: Anton;
     color: white;
     width: 40px;
-
 }
 
+/* İban konum ayarı */
 .payment {
     display: flex;
     align-items: center;
@@ -130,18 +130,31 @@ body {
     margin-top: 5px;
 }
 
-
-
+/* İnstagram yazı konum ayarı */
 .contact {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+/* İnstagram iconu boyut ayarı */
 .contact img {
     width: 40px;
     margin-bottom: 5px;
 }
 
+/* Telefon yazısı konum ayarı */
+.phone  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    
+}
+
+/* Footerda ki yazıların ortalanma ayarı */
+.position {
+    margin: 2px;
+}
 
 
